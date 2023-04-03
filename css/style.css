@@ -630,6 +630,9 @@ footer {
 }
 
 @media(max-width: 1024px) {
+    .menu_desktop {
+        display: none;
+    }
     #container_1 {
         height: 400px;
     }
@@ -766,9 +769,7 @@ footer {
 
 
 @media(max-width: 768px) {
-    .menu_desktop {
-        display: none;
-    }
+ 
 
     .in {
         display: none;
