@@ -95,7 +95,7 @@ nav ul li {
     flex-direction: column;
     width: 100%;
     background: linear-gradient(146.25deg, #01565B 16%, #2C99A3 131.9%);
-    padding: 50px 0px 0px 0px;
+    padding: 50px 20px 0px 20px;
     gap: 30px;
 }
 
@@ -184,4 +184,158 @@ footer {
 
 .area_footer nav ul li {
     color: #ffffff;
+}
+
+
+@media(max-width: 1024px) {
+    .menu_desktop {
+        display: none;
+    }
+    
+    .in {
+        display: none;
+    }
+    
+    .menu_mobile_open {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 8px;
+    
+    }
+    
+    .menu_mobile nav ul a li:hover {
+        color: #06575C;
+    }
+    
+    @keyframes move {
+        0% {
+            top: -500%;
+    
+        }
+    
+        100% {
+            top: 100px;
+        }
+    
+    }
+    
+    .menu_mobile_close {
+        display: none;
+        align-items: center;
+        flex-direction: column;
+        gap: 8px;
+        position: absolute;
+        right: 40px;
+    }
+    
+    .line_1_mobile {
+        transform: rotate(130deg);
+        position: absolute;
+    }
+    
+    .line_2_mobile {
+        position: absolute;
+        transform: rotate(50deg);
+    }
+    
+    .menu_mobile_close div {
+        width: 40px;
+        height: 4px;
+        border-radius: 100px;
+        background: #06575C;
+        box-shadow: 4px 2px 4px rgb(0 0 0 / 40%);
+    }
+    
+    
+    .menu_mobile_open div {
+        width: 40px;
+        height: 4px;
+        border-radius: 100px;
+        background: #06575C;
+        box-shadow: 4px 2px 4px rgb(0 0 0 / 40%);
+    }
+    
+    .menu_mobile {
+        transition: all ease-in 400ms;
+        display: none;
+        width: 100%;
+        position: absolute;
+        justify-content: center;
+        text-align: center;
+        top: 100px;
+        left: 0px;
+        background-color: #EEEEEE;
+        box-shadow: 0px 4px 43px rgba(255, 255, 255, 0.36);
+        z-index: 10;
+        padding: 40px 0px 40px 0px;
+    }
+    
+    .menu_mobile nav ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+    
+    .menu_mobile nav ul li a {
+        font-size: 18px;
+    }
+
+    .area_beltsys {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .title_beltsys {
+        max-width: max-content;
+    }
+    .title_beltsys h2 {
+        font-size: 60px;
+    }
+    .sub_title_beltsys p {
+        text-align: center;
+        font-size: 16px;
+        line-height: 26px;
+    }
+     /*footer*/
+     .area_footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    nav ul li {
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 480px) {
+    .container_beltsys {
+        gap: 0px;
+    }
+    .area_beltsys {
+        gap: 20px;
+    }
+    .title_beltsys h2 {
+        font-size: 40px;
+    }
+    .sub_title_beltsys p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .container_beltsys svg {
+        margin: -60px 0px -130px 0px;
+    }
+
+
+
+
+
+
+
 }
