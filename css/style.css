@@ -891,16 +891,19 @@ footer {
         font-size: 20px;
     }
 
-
-
-
-     
     .area_container_2 svg {
-        margin-top: -60px;
+        margin-top: 0px;
+        height: 300px;
+    }
+    .area_container_3 svg {
+        height: 300px;
+    }
+    .area_container_4 svg {
+        height: 300px;
     }
     .title_container_2 h2 {
         font-size: 32px;
-        line-height: normal;
+        line-height: 34px;
     }
     .title_container_2 {
         gap: 10px;
@@ -943,21 +946,21 @@ footer {
         line-height: 20px;
     }
 
-
-
     .container_5 {
         padding: 30px 0px;
     }
     .title_container_5 h2 {
-        font-size: 22px;
-        line-height: 26px;
+        font-size: 32px;
+        line-height: 34px;
     }
 
     .tilte_container_6 h2 {
         font-size: 32px;
         line-height: normal;
     }
-
+    .container_6 {
+        padding: 40px 0px;
+    }
     .title_post h2 {
         font-size: 22px;
         line-height: 20px;
