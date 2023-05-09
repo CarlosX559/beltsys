@@ -210,13 +210,18 @@ nav ul li:hover .line_menu {
     margin: 0px;
 }
 
-.posts_recentes p {
+.posts_recentes p a {
     font-family: 'Open Sans';
     font-weight: var(--font-weight-400);
     font-size: 14px;
     line-height: 19px;
     color: var(--font-color-black);
     margin: 0px;
+    transition: all ease 300ms;
+}
+
+.posts_recentes p a:hover {
+    color: #54A16A;
 }
 
 .all_post {

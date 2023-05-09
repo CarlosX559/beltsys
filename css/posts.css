@@ -40,6 +40,12 @@ a {
     display: none;
 }
 
+.line_menu.active {
+    width: 100%;
+    height: 4px;
+    background-color: #06575C;
+}
+
 /*Menu*/
 header {
     width: 100%;
@@ -102,8 +108,6 @@ nav ul li:hover .line_menu {
     background-color: #06575C;
     transition: all ease 300ms;
 }
-
-
 
 .container_post {
     display: flex;
@@ -236,8 +240,13 @@ nav ul li:hover .line_menu {
     line-height: 32px;
     color: var(--font-color-black);
     margin: 0px;
-
+    transition: all ease 300ms;
 }
+
+.title_post:hover > h2 {
+    color: #2C99A3;
+}
+
 
 .date p {
     font-family: 'Open Sans';
@@ -247,7 +256,6 @@ nav ul li:hover .line_menu {
     color: #2C99A3;
     margin: 0px;
 }
-
 
 
 
