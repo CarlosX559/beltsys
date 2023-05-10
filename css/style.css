@@ -1088,9 +1088,37 @@ footer {
         gap: 10px;
     }
 
+}
 
-
-
-
-
+@media(max-width: 320px) {
+    .area_btns_container_1 {
+        gap: 10px;
+    }
+    .btn_explore {
+        padding: 10px;
+        width: 100%;
+        max-width: max-content;
+    }
+    .btn_explore_exemplo {
+        width: 100%;
+        max-width: max-content;
+    }
+    .btn_explore h2 {
+        font-size: 18px;
+    }
+    .btn_explore_exemplo {
+        padding: 10px;
+    }
+    .btn_explore_exemplo h2 {
+        font-size: 18px;
+    }
+    .area_btn_engenharia {
+        gap: 10px;
+    }
+    .btn_contact {
+        padding: 10px;
+    }
+    .btn_contact h2 {
+        font-size: 18px;
+    }
 }

@@ -212,40 +212,44 @@ footer {
     color: #ffffff;
 }
 
-
+@media(min-width: 2000px) {
+    .container_beltsys {
+        height: 84.4vh;
+    }
+}
 @media(max-width: 1024px) {
     .menu_desktop {
         display: none;
     }
-    
+
     .in {
         display: none;
     }
-    
+
     .menu_mobile_open {
         display: flex;
         align-items: center;
         flex-direction: column;
         gap: 8px;
-    
+
     }
-    
+
     .menu_mobile nav ul a li:hover {
         color: #06575C;
     }
-    
+
     @keyframes move {
         0% {
             top: -500%;
-    
+
         }
-    
+
         100% {
             top: 100px;
         }
-    
+
     }
-    
+
     .menu_mobile_close {
         display: none;
         align-items: center;
@@ -254,17 +258,17 @@ footer {
         position: absolute;
         right: 40px;
     }
-    
+
     .line_1_mobile {
         transform: rotate(130deg);
         position: absolute;
     }
-    
+
     .line_2_mobile {
         position: absolute;
         transform: rotate(50deg);
     }
-    
+
     .menu_mobile_close div {
         width: 40px;
         height: 4px;
@@ -272,8 +276,8 @@ footer {
         background: #06575C;
         box-shadow: 4px 2px 4px rgb(0 0 0 / 40%);
     }
-    
-    
+
+
     .menu_mobile_open div {
         width: 40px;
         height: 4px;
@@ -281,7 +285,7 @@ footer {
         background: #06575C;
         box-shadow: 4px 2px 4px rgb(0 0 0 / 40%);
     }
-    
+
     .menu_mobile {
         transition: all ease-in 400ms;
         display: none;
@@ -296,14 +300,14 @@ footer {
         z-index: 10;
         padding: 40px 0px 40px 0px;
     }
-    
+
     .menu_mobile nav ul {
         display: flex;
         flex-direction: column;
         width: 100%;
         gap: 15px;
     }
-    
+
     .menu_mobile nav ul li a {
         font-size: 18px;
     }
@@ -313,15 +317,19 @@ footer {
         align-items: center;
         gap: 40px;
     }
+
     .title_beltsys {
         max-width: max-content;
     }
+
     .title_beltsys_mobile {
         max-width: 250px;
     }
+
     .title_beltsys_mobile {
         display: flex;
     }
+
     .title_beltsys_mobile h2 {
         font-family: 'Barlow Condensed';
         font-weight: var(--font-weight-500);
@@ -337,22 +345,26 @@ footer {
         display: none;
         font-size: 60px;
     }
+
     .sub_title_beltsys p {
         text-align: center;
         font-size: 16px;
         line-height: 26px;
     }
-     /*footer*/
-     .area_footer {
+
+    /*footer*/
+    .area_footer {
         flex-direction: column;
         gap: 20px;
     }
+
     nav ul {
         flex-direction: column;
         text-align: center;
         align-items: center;
         gap: 10px;
     }
+
     nav ul li {
         font-size: 22px;
     }
@@ -362,15 +374,19 @@ footer {
     .container_beltsys {
         gap: 0px;
     }
+
     .area_beltsys {
         gap: 20px;
     }
+
     .title_beltsys h2 {
         font-size: 40px;
     }
+
     .title_beltsys_mobile h2 {
         font-size: 40px;
     }
+
     .sub_title_beltsys p {
         font-size: 14px;
         line-height: 24px;

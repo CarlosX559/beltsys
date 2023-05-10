@@ -807,6 +807,14 @@ footer {
     .title_icons h2 {
         font-size: 18px;
     }
+    .btn_explore {
+        width: 154px;
+        max-width: 100%;
+    }
+    .btn_explore_exemplo {
+        width: 154px;
+        max-width: 100%;
+    }
     .btn_explore h2 {
         font-size: 20px;
     }
@@ -846,10 +854,39 @@ footer {
         font-size: 20px;
     }
 
+}
 
-
-
-
-
-
+@media(max-width: 320px) {
+    .area_btns_sistemas {
+        gap: 10px;
+    }
+    .btn_explore {
+        padding: 10px;
+        width: 100%;
+        max-width: max-content;
+    }
+    .btn_explore_exemplo {
+        width: 100%;
+        max-width: max-content;
+    }
+    .btn_explore h2 {
+        font-size: 18px;
+    }
+    .btn_explore_exemplo {
+        padding: 10px;
+    }
+    .btn_explore_exemplo h2 {
+        font-size: 18px;
+    }
+    .area_btn_engenharia {
+        gap: 10px;
+    }
+    .btn_contact {
+        padding: 10px;
+    }
+    .btn_contact h2 {
+        font-size: 18px;
+    }
+    
+    
 }

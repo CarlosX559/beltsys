@@ -255,6 +255,13 @@ footer {
     color: #ffffff;
 }
 
+@media(min-width: 2000px) {
+    .area {
+        height: 84.4vh;
+        background: linear-gradient(146.25deg, #01565B 16%, #2C99A3 131.9%);
+    }
+}
+
 @media(max-width: 1024px) {
   
     .menu_desktop {
