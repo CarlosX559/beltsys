@@ -256,6 +256,7 @@ footer {
 }
 
 @media(max-width: 1024px) {
+  
     .menu_desktop {
         display: none;
     }
@@ -273,7 +274,7 @@ footer {
     }
 
     .menu_mobile nav ul a li:hover {
-        color: #fff;
+        color: #06575C;
     }
 
     @keyframes move {
@@ -311,7 +312,7 @@ footer {
         width: 40px;
         height: 4px;
         border-radius: 100px;
-        background: #FFFFFF;
+        background: #06575C;
         box-shadow: 4px 2px 4px rgb(0 0 0 / 40%);
     }
 
@@ -333,7 +334,7 @@ footer {
         text-align: center;
         top: 100px;
         left: 0px;
-        background: linear-gradient(102.69deg, #01565B -1.91%, #54A16A 122.8%);
+        background-color: #EEEEEE;
         box-shadow: 0px 4px 43px rgba(255, 255, 255, 0.36);
         z-index: 10;
         padding: 40px 0px 40px 0px;
