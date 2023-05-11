@@ -236,6 +236,7 @@ nav ul li:hover .line_menu {
     justify-content: space-between;
     width: 100%;
     max-width: 1140px;
+    padding: 0px 20px;
 }
 
 .area_text_automacao {
