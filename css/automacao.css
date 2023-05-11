@@ -393,11 +393,12 @@ nav ul li:hover .line_menu {
     align-items: center;
     background: var(--font-color-black);
     border-radius: 4px;
-    max-width: max-content;
     padding: 14px 14.5px;
     filter: drop-shadow(3px 0px 20px rgba(0, 0, 0, 0.33));
     box-shadow: #161616 0px 5px 0px;
     transition: all ease 400ms;
+    width: 204px;
+    height: 64px;
 }
 
 .btn_contact h2 {
@@ -461,6 +462,24 @@ footer {
         background: linear-gradient(146.25deg, #01565B 16%, #2C99A3 131.9%);
         height: 87.2vh;
     }
+}
+
+@media(max-width: 1439px) {
+
+    nav ul {
+        display: flex;
+        gap: 10px;
+        padding: 0px;
+        margin: 0px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        font-size: 22px;
+    }
+  
 }
 
 @media(max-width: 1024px) {
@@ -598,9 +617,17 @@ footer {
     }
 
     .title_engenharia h2 {
-        font-size: 32px;
+        font-size: 28px;
     }
-
+    .btn_contact h2 {
+        font-size: 22px;
+    }
+    .btn_contact {
+        width: 100%;
+        width: max-content;
+        height: 40px;
+    }
+    
     /*footer*/
     .area_footer {
         flex-direction: column;

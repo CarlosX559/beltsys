@@ -454,7 +454,7 @@ nav ul li:hover .line_menu {
     filter: drop-shadow(3px 0px 20px rgba(0, 0, 0, 0.33));
     box-shadow: #333333 0px 5px 0px;
     transition: all ease 400ms;
-    
+
 }
 
 .btn_explore_exemplo h2 {
@@ -589,9 +589,34 @@ footer {
     color: #ffffff;
 }
 
-
+@media(max-width: 1439px) {
+    .area_sistemas svg {
+        margin-right: 0px;
+    }
+    .area_sistemas {
+        padding-left: 20px;
+    }
+ 
+    nav ul {
+        display: flex;
+        gap: 10px;
+        padding: 0px;
+        margin: 0px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        font-size: 22px;
+    }
+  
+}
 
 @media(max-width: 1024px) {
+    .area_sistemas {
+        padding-left: 0px;
+    }
     .menu_desktop {
         display: none;
     }
@@ -689,6 +714,7 @@ footer {
     .title_explore h2 {
         font-size: 60px;
     }
+
     .sub_title_explore p {
         font-size: 24px;
     }
@@ -697,18 +723,23 @@ footer {
     .container_automacao {
         padding: 30px 0px 40px 0px;
     }
+
     .title_automacao h2 {
         font-size: 60px;
     }
+
     .area_engenharia {
         gap: 20px;
     }
+
     .sub_title_automacao p {
         font-size: 18px;
     }
+
     .btn_explore h2 {
         font-size: 22px;
     }
+
     .area_texts_automacao {
         gap: 20px;
     }
@@ -718,10 +749,12 @@ footer {
         align-items: center;
         gap: 20px;
     }
+
     .area_texts_automacao {
         align-items: center;
         text-align: center;
     }
+
     .automacao {
         max-width: 500px;
         width: 100%;
@@ -733,30 +766,50 @@ footer {
         font-size: 60px;
         text-align: center;
     }
+
     .sub_title_sistemas p {
         font-size: 18px;
         text-align: center;
     }
+
     .btn_explore_exemplo {
+        width: 100%;
         width: max-content;
+        height: 40px;
     }
+
+    .btn_explore {
+        width: 100%;
+        width: max-content;
+        height: 40px;
+    }
+
+    .btn_contact {
+        width: 100%;
+        width: max-content;
+        height: 40px;
+    }
+
     .btn_explore_exemplo h2 {
         font-size: 22px;
     }
+
     .area_sistemas {
         flex-direction: column;
         align-items: center;
         gap: 40px;
-     
+
     }
+
     .area_texts_sistemas {
-        
         height: auto;
         gap: 20px;
     }
+
     .area_btns_sistemas {
         justify-content: center;
     }
+
     .area_sistemas svg {
         max-width: 500px;
         width: 100%;
@@ -768,9 +821,11 @@ footer {
     .title_engenharia h2 {
         font-size: 36px;
     }
+
     .btn_contact h2 {
         font-size: 22px;
     }
+
     /*footer*/
     .area_footer {
         flex-direction: column;
@@ -795,6 +850,7 @@ footer {
     .title_explore h2 {
         font-size: 32px;
     }
+
     .sub_title_explore p {
         font-size: 20px;
     }
@@ -807,17 +863,21 @@ footer {
     .title_automacao h2 {
         font-size: 32px;
     }
+
     .sub_title_automacao p {
         font-size: 16px;
     }
+
     .title_icons h2 {
         font-size: 18px;
     }
+
     .btn_explore {
         width: 154px;
         max-width: 100%;
         height: 40px;
     }
+
     .btn_explore_exemplo {
         width: 154px;
         max-width: 100%;
@@ -838,13 +898,16 @@ footer {
     .container_sistemas {
         padding: 40px 0px 40px 0px;
     }
+
     .area_texts_sistemas_int {
         gap: 20px;
     }
+
     .area_sistemas {
         gap: 20px;
         padding: 0px 20px;
     }
+
     .area_sistemas svg {
         max-width: 500px;
         width: 100%;
@@ -854,9 +917,11 @@ footer {
     .title_sistemas h2 {
         font-size: 32px;
     }
+
     .sub_title_sistemas p {
         font-size: 16px;
     }
+
     .btn_explore_exemplo h2 {
         font-size: 20px;
     }
@@ -865,21 +930,24 @@ footer {
     .title_engenharia h2 {
         font-size: 32px;
     }
+
     .btn_contact h2 {
         font-size: 20px;
     }
 
 }
 
-@media(max-width: 320px) {
+@media(max-width: 375px) {
     .area_btns_sistemas {
         gap: 10px;
     }
+
     .btn_explore {
         padding: 10px;
         width: 126px;
         height: 40px;
     }
+
     .btn_explore_exemplo {
         width: 126px;
         height: 40px;
@@ -888,23 +956,28 @@ footer {
     .btn_explore h2 {
         font-size: 16px;
     }
+
     .btn_explore_exemplo {
         padding: 10px;
     }
+
     .btn_explore_exemplo h2 {
         font-size: 16px;
     }
+
     .area_btn_engenharia {
         gap: 10px;
     }
+
     .btn_contact {
         width: 126px;
         height: 40px;
         padding: 10px;
     }
+
     .btn_contact h2 {
         font-size: 16px;
     }
-    
-    
+
+
 }
