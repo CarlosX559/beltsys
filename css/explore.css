@@ -877,30 +877,33 @@ footer {
     }
     .btn_explore {
         padding: 10px;
-        width: 100%;
-        max-width: max-content;
+        width: 126px;
+        height: 40px;
     }
     .btn_explore_exemplo {
-        width: 100%;
-        max-width: max-content;
+        width: 126px;
+        height: 40px;
     }
+
     .btn_explore h2 {
-        font-size: 18px;
+        font-size: 16px;
     }
     .btn_explore_exemplo {
         padding: 10px;
     }
     .btn_explore_exemplo h2 {
-        font-size: 18px;
+        font-size: 16px;
     }
     .area_btn_engenharia {
         gap: 10px;
     }
     .btn_contact {
+        width: 126px;
+        height: 40px;
         padding: 10px;
     }
     .btn_contact h2 {
-        font-size: 18px;
+        font-size: 16px;
     }
     
     
