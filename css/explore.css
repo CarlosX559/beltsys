@@ -348,11 +348,12 @@ nav ul li:hover .line_menu {
     align-items: center;
     background: #E0BA68;
     border-radius: 4px;
-    max-width: max-content;
     padding: 14px 14.5px;
     filter: drop-shadow(3px 0px 20px rgba(0, 0, 0, 0.33));
     box-shadow: #333333 0px 5px 0px;
     transition: all ease 400ms;
+    width: 204px;
+    height: 64px;
 }
 
 .btn_explore h2 {
@@ -400,6 +401,7 @@ nav ul li:hover .line_menu {
 .area_sistemas svg {
     max-width: 786px;
     width: 100%;
+    margin-right: -118px;
 }
 
 .area_texts_sistemas {
@@ -447,10 +449,12 @@ nav ul li:hover .line_menu {
     background: #2C99A3;
     border-radius: 4px;
     width: 204px;
+    height: 64px;
     padding: 14px 14.5px;
     filter: drop-shadow(3px 0px 20px rgba(0, 0, 0, 0.33));
     box-shadow: #333333 0px 5px 0px;
     transition: all ease 400ms;
+    
 }
 
 .btn_explore_exemplo h2 {
@@ -522,7 +526,8 @@ nav ul li:hover .line_menu {
     align-items: center;
     background: var(--font-color-black);
     border-radius: 4px;
-    max-width: max-content;
+    width: 204px;
+    height: 64px;
     padding: 14px 14.5px;
     filter: drop-shadow(3px 0px 20px rgba(0, 0, 0, 0.33));
     box-shadow: #161616 0px 5px 0px;
@@ -756,6 +761,7 @@ footer {
         max-width: 500px;
         width: 100%;
         height: 320px;
+        margin-right: 0px;
     }
 
     /*Container engenharia*/
@@ -810,13 +816,22 @@ footer {
     .btn_explore {
         width: 154px;
         max-width: 100%;
+        height: 40px;
     }
     .btn_explore_exemplo {
         width: 154px;
         max-width: 100%;
+        height: 40px;
     }
+
     .btn_explore h2 {
         font-size: 20px;
+    }
+
+    .btn_contact {
+        width: 154px;
+        max-width: 100%;
+        height: 40px;
     }
 
     /*Container sistemas*/

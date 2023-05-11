@@ -296,6 +296,12 @@ footer {
     color: #ffffff;
 }
 
+@media(min-width: 2000px) {
+    .container_post {
+        height: 87.2vh;
+    }
+}
+
 @media(max-width: 1024px) {
     .menu_desktop {
         display: none;

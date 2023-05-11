@@ -269,6 +269,7 @@ nav ul li:hover .line_menu {
     align-items: center;
     gap: 10px;
     max-width: 125px;
+    height: max-content;
 }
 
 .title_icon_automacao h2 {
